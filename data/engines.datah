@@ -1,0 +1,309 @@
+# Engine 10
+set engineList(alias_10) {Crafty-23.5}
+set engineList(command_10) {/home/peter/chess/engines/crafty/crafty-23.5-32bit.exe}
+set engineList(protocol_10) {xboard}
+set engineList(param_10) {}
+set engineList(dir_10) {/home/peter/chess/engines/crafty/}
+set engineList(wine_10) {true}
+# Engine 11
+set engineList(alias_11) {StrategicDeep 1.25 by Marcin Gardyjan}
+set engineList(command_11) {/home/peter/chess/engines/StrategicDeep_125/strategicdeep_125.exe}
+set engineList(protocol_11) {xboard}
+set engineList(param_11) {}
+set engineList(dir_11) {/home/peter/chess/engines/StrategicDeep_125/}
+set engineList(wine_11) {true}
+# Engine 12
+set engineList(alias_12) {Fruit 2.1}
+set engineList(command_12) {/home/peter/chess/engines/fruit_21_linux/fruit_21_static}
+set engineList(protocol_12) {uci}
+set engineList(param_12) {}
+set engineList(dir_12) {/home/peter/chess/engines/fruit_21_linux/}
+set engineList(wine_12) {false}
+set engineList(OwnBook_12) {OwnBook check true true}
+set engineList(option_Futility_Pruning_12) {{Futility Pruning} check false false}
+set engineList(option_NullMove_Pruning_12) {{NullMove Pruning} combo {Fail High} {Fail High} {Always Fail High Never}}
+set engineList(option_Pawn_Structure_12) {{Pawn Structure} spin 100 100 0 400}
+set engineList(option_Delta_Pruning_12) {{Delta Pruning} check false false}
+set engineList(option_NullMove_Reduction_12) {{NullMove Reduction} spin 3 3 1 3}
+set engineList(option_BookFile_12) {BookFile string book_small.bin book_small.bin}
+set engineList(option_Verification_Reduction_12) {{Verification Reduction} spin 5 5 1 6}
+set engineList(option_Material_12) {Material spin 100 100 0 400}
+set engineList(option_Verification_Search_12) {{Verification Search} combo Endgame Endgame {Always Endgame Never}}
+set engineList(option_Piece_Activity_12) {{Piece Activity} spin 100 100 0 400}
+set engineList(option_Quiescence_Check_Plies_12) {{Quiescence Check Plies} spin 1 1 0 2}
+set engineList(option_King_Safety_12) {{King Safety} spin 100 100 0 400}
+set engineList(option_Futility_Margin_12) {{Futility Margin} spin 100 100 0 500}
+set engineList(option_History_Threshold_12) {{History Threshold} spin 60 60 0 100}
+set engineList(option_History_Pruning_12) {{History Pruning} check true true}
+set engineList(option_Passed_Pawns_12) {{Passed Pawns} spin 100 100 0 400}
+set engineList(option_Delta_Margin_12) {{Delta Margin} spin 50 50 0 500}
+# Engine 0
+set engineList(alias_0) {Paper Tiger 5.0}
+set engineList(command_0) {/home/peter/papertiger}
+set engineList(protocol_0) {uci}
+set engineList(param_0) {}
+set engineList(dir_0) {/home/peter/}
+set engineList(wine_0) {false}
+set engineList(OwnBook_0) {OwnBook check true false}
+set engineList(option_adjust_0) {adjust check false false}
+set engineList(option_mutemoveinfo_0) {mutemoveinfo check false false}
+set engineList(option_aggression_0) {aggression spin 5 5 1 10}
+set engineList(option_booklearning_0) {booklearning check false false}
+set engineList(option_Clear_Hash_0) {{Clear Hash} button}
+set engineList(option_playingstrength_0) {playingstrength spin 100 100 0 100}
+# Engine 1
+set engineList(alias_1) {Rival 1.18}
+set engineList(command_1) {/home/peter/chess/engines/rival/RivalUCI-1.18.exe}
+set engineList(protocol_1) {uci}
+set engineList(param_1) {}
+set engineList(dir_1) {/home/peter/chess/engines/rival/}
+set engineList(wine_1) {true}
+set engineList(option_Clear_Hash_1) {{Clear Hash} button}
+# Engine 2
+set engineList(alias_2) {DeepSaros 3.3}
+set engineList(command_2) {/home/peter/chess/engines/DeepSaros33b/Linux64bit/DeepSaros_3.3_popcnt_x86-64}
+set engineList(protocol_2) {uci}
+set engineList(param_2) {}
+set engineList(dir_2) {/home/peter/chess/engines/DeepSaros33b/Linux64bit/}
+set engineList(wine_2) {false}
+set engineList(Threads_2) {Threads spin 1 1 1 12}
+set engineList(option_SplitDepthALL_2) {SplitDepthALL spin 14 14 12 20}
+set engineList(option_RobboTotalBaseCacheSize_2) {RobboTotalBaseCacheSize spin 1 1 1 1024}
+set engineList(option_TryLargePages_2) {TryLargePages check false false}
+set engineList(option_TimeBookExitMoves_2) {TimeBookExitMoves spin 0 0 0 20}
+set engineList(option_ExtraExtendInCheck_2) {ExtraExtendInCheck check false false}
+set engineList(option_MultiThread_2) {MultiThread check false false}
+set engineList(option_DeregisterRobboTotalBases_2) {DeregisterRobboTotalBases button}
+set engineList(option_LoadRobboTripleBases_2) {LoadRobboTripleBases button}
+set engineList(option_SplitDepthCUT_2) {SplitDepthCUT spin 16 16 16 20}
+set engineList(option_RegisterRobboTotalBases_2) {RegisterRobboTotalBases button}
+set engineList(option_PawnsHash_2) {PawnsHash spin 2 2 1 1024}
+set engineList(option_SplitAtCUT_2) {SplitAtCUT check true true}
+set engineList(option_RobboTotalBaseDirectory_2) {RobboTotalBaseDirectory string NULL NULL}
+set engineList(option_RobboTripleBaseDirectory_2) {RobboTripleBaseDirectory string NULL NULL}
+set engineList(option_SendCurrmove_2) {SendCurrmove check false false}
+set engineList(option_SplitDepthPV_2) {SplitDepthPV spin 14 14 10 20}
+set engineList(option_UnloadRobboTripleBases_2) {UnloadRobboTripleBases button}
+# Engine 3
+set engineList(alias_3) {Bouquet _1.6 x32}
+set engineList(command_3) {/home/peter/chess/engines/bouquet/Bouquet_1.6x32.exe}
+set engineList(protocol_3) {uci}
+set engineList(param_3) {}
+set engineList(dir_3) {/home/peter/chess/engines/bouquet/}
+set engineList(wine_3) {true}
+set engineList(option_Max_Threads_3) {Max_Threads spin 1 16 1 16}
+# Engine 4
+set engineList(alias_4) {BlackMamba_1.2b w32}
+set engineList(command_4) {/home/peter/chess/engines/blackmamba/BlackMamba_1.2b_Win32.exe}
+set engineList(protocol_4) {uci}
+set engineList(param_4) {}
+set engineList(dir_4) {/home/peter/chess/engines/blackmamba/}
+set engineList(wine_4) {true}
+set engineList(OwnBook_4) {OwnBook check false true}
+set engineList(UCI_LimitStrength_4) {UCI_LimitStrength check false false}
+set engineList(UCI_Elo_4) {UCI_Elo spin 2800 2800 800 2800}
+set engineList(option_TC_Normal_Move_4) {{TC Normal Move} spin 75 75 1 200}
+set engineList(option_Load_hash_file_4) {{Load hash file} button}
+set engineList(option_MultiPV_cp_4) {MultiPV_cp spin 32767 32767 0 65535}
+set engineList(option_GaviotaTbCache_4) {GaviotaTbCache spin 32 32 16 128}
+set engineList(option_Best_book_move_4) {{Best book move} check true true}
+set engineList(option_Book_file_4) {{Book file} string Book.bin Book.bin}
+set engineList(option_Hash_file_4) {{Hash file} string Hash.dat Hash.dat}
+set engineList(option_Use_book_in_analysis_4) {{Use book in analysis} check true true}
+set engineList(option_Save_hash_file_4) {{Save hash file} button}
+set engineList(option_deterministic_4) {deterministic check true true}
+set engineList(option_TC_Buffer_4) {{TC Buffer} spin 5 5 0 10}
+set engineList(option_Clear_Hash_4) {{Clear Hash} button}
+set engineList(option_GaviotaTbPath_4) {GaviotaTbPath string {} {}}
+set engineList(option_Preserve_analysis_4) {{Preserve analysis} check false false}
+set engineList(option_Move_on_Ponderhit_4) {{Move on Ponderhit} combo Sometimes Sometimes {Never Sometimes Always}}
+set engineList(option_TC_Max_Move_4) {{TC Max Move} spin 100 100 1 200}
+# Engine 5
+set engineList(alias_5) {Critter 1.6a 64-bit}
+set engineList(command_5) {/home/peter/chess/engines/critter/critter-16a-64bit}
+set engineList(protocol_5) {uci}
+set engineList(param_5) {}
+set engineList(dir_5) {/home/peter/chess/engines/critter/}
+set engineList(wine_5) {false}
+set engineList(Threads_5) {Threads spin 1 4 1 32}
+set engineList(OwnBook_5) {OwnBook check true true}
+set engineList(option_Split_Depth_5) {{Split Depth} spin 5 5 4 15}
+set engineList(option_SF_Size_5) {{SF Size} spin 32 32 2 1024}
+set engineList(option_SF_Move_Limit_5) {{SF Move Limit} spin 0 0 0 999}
+set engineList(option_GaviotaTbCache_5) {GaviotaTbCache spin 32 32 4 256}
+set engineList(option_SF_Write_Depth_5) {{SF Write Depth} spin 8 8 2 32}
+set engineList(option_Book_File_5) {{Book File} string book.cbk book.cbk}
+set engineList(option_Session_File_5) {{Session File} string session.csf session.csf}
+set engineList(option_GaviotaTbCompression_5) {GaviotaTbCompression combo cp4 cp4 {uncompressed cp1 cp2 cp3 cp4}}
+set engineList(option_Clear_SF_5) {{Clear SF} button}
+set engineList(option_Tablebase_Usage_5) {{Tablebase Usage} combo {Only At Root} {Only At Root} {Disable Only At Root Everywhere}}
+set engineList(option_SF_Material_Limit_5) {{SF Material Limit} spin 0 0 0 32}
+set engineList(option_Clear_Hash_5) {{Clear Hash} button}
+set engineList(option_King_Safety_Weight_5) {{King Safety Weight} spin 32 32 0 100}
+set engineList(option_Resolve_Score_Drops_5) {{Resolve Score Drops} check false false}
+set engineList(option_UCI_Chess960_5) {UCI_Chess960 check false false}
+set engineList(option_GaviotaTbPath_5) {GaviotaTbPath string /home/peter/chess/tb/gaviota/gtb/ /gtb}
+set engineList(option_Use_Session_File_5) {{Use Session File} check false false}
+# Engine 6
+set engineList(alias_6) {Stockfish 2.3.1 JA 64bit SSE4.2}
+set engineList(command_6) {/home/peter/chess/engines/stockfish-231-linux/Linux/stockfish-231-64-popcnt-ja}
+set engineList(protocol_6) {uci}
+set engineList(param_6) {}
+set engineList(dir_6) {/home/peter/chess/engines/stockfish-231-linux/Linux/}
+set engineList(wine_6) {false}
+set engineList(Threads_6) {Threads spin 1 1 1 32}
+set engineList(OwnBook_6) {OwnBook check false false}
+set engineList(option_Slow_Mover_6) {{Slow Mover} spin 100 100 10 1000}
+set engineList(option_Best_Book_Move_6) {{Best Book Move} check false false}
+set engineList(option_Minimum_Thinking_Time_6) {{Minimum Thinking Time} spin 20 20 0 5000}
+set engineList(option_Passed_Pawns__Middle_Game__6) {{Passed Pawns (Middle Game)} spin 100 100 0 200}
+set engineList(option_Cowardice_6) {Cowardice spin 100 100 0 200}
+set engineList(option_Min_Split_Depth_6) {{Min Split Depth} spin 4 4 4 7}
+set engineList(option_Aggressiveness_6) {Aggressiveness spin 100 100 0 200}
+set engineList(option_Space_6) {Space spin 100 100 0 200}
+set engineList(option_Book_File_6) {{Book File} string book.bin book.bin}
+set engineList(option_Mobility__Endgame__6) {{Mobility (Endgame)} spin 100 100 0 200}
+set engineList(option_Passed_Pawns__Endgame__6) {{Passed Pawns (Endgame)} spin 100 100 0 200}
+set engineList(option_Emergency_Move_Time_6) {{Emergency Move Time} spin 70 70 0 5000}
+set engineList(option_Emergency_Base_Time_6) {{Emergency Base Time} spin 200 200 0 30000}
+set engineList(option_Emergency_Move_Horizon_6) {{Emergency Move Horizon} spin 40 40 0 50}
+set engineList(option_Skill_Level_6) {{Skill Level} spin 20 20 0 20}
+set engineList(option_Use_Sleeping_Threads_6) {{Use Sleeping Threads} check false false}
+set engineList(option_Max_Threads_per_Split_Point_6) {{Max Threads per Split Point} spin 5 5 4 8}
+set engineList(option_Clear_Hash_6) {{Clear Hash} button}
+set engineList(option_UCI_Chess960_6) {UCI_Chess960 check false false}
+set engineList(option_Mobility__Middle_Game__6) {{Mobility (Middle Game)} spin 100 100 0 200}
+set engineList(option_Search_Log_Filename_6) {{Search Log Filename} string SearchLog.txt SearchLog.txt}
+set engineList(option_Use_Debug_Log_6) {{Use Debug Log} check false false}
+set engineList(option_Use_Search_Log_6) {{Use Search Log} check false false}
+# Engine 7
+set engineList(alias_7) {Houdini 1.5a x64}
+set engineList(command_7) {/home/peter/chess/engines/houdini/Houdini_15a_x64.exe}
+set engineList(protocol_7) {uci}
+set engineList(param_7) {}
+set engineList(dir_7) {/home/peter/chess/engines/houdini/}
+set engineList(wine_7) {true}
+set engineList(Threads_7) {Threads spin 1 8 1 8}
+set engineList(option_Split_Depth_7) {Split_Depth spin 10 10 8 99}
+set engineList(option_GaviotaTbCache_7) {GaviotaTbCache spin 64 64 4 1024}
+set engineList(option_Soft_Probe_Depth_7) {Soft_Probe_Depth spin 16 16 2 99}
+set engineList(option_Contempt_7) {Contempt spin 1 1 0 2}
+set engineList(option_Analysis_Contempt_7) {Analysis_Contempt check false false}
+set engineList(option_Clear_Hash_7) {{Clear Hash} button}
+set engineList(option_GaviotaTbPath_7) {GaviotaTbPath string /home/peter/chess/tb/gaviota/gtb/ <empty>}
+set engineList(option_Hard_Probe_Depth_7) {Hard_Probe_Depth spin 24 24 2 99}
+# Engine 8
+set engineList(alias_8) {Fire 2.2 xTreme w32}
+set engineList(command_8) {/home/peter/chess/engines/Fire_22_xTreme_w32_NS/Fire_22_xTreme_w32_NS.exe}
+set engineList(protocol_8) {uci}
+set engineList(param_8) {}
+set engineList(dir_8) {/home/peter/chess/engines/Fire_22_xTreme_w32_NS/}
+set engineList(wine_8) {true}
+set engineList(option_Prune_Rook_8) {Prune_Rook spin 800 800 1 1600}
+set engineList(option_Easy_Factor_8) {Easy_Factor spin 15 15 1 100}
+set engineList(option_Bulk_Load_Directory_8) {Bulk_Load_Directory string NULL NULL}
+set engineList(option_Prune_Minor_8) {Prune_Minor spin 500 500 1 1000}
+set engineList(option_Depth_Info_8) {Depth_Info check false false}
+set engineList(option_Lazy_Eval_Min_8) {Lazy_Eval_Min spin 150 150 1 300}
+set engineList(option_Aspiration_Window_8) {Aspiration_Window spin 8 8 1 100}
+set engineList(option_Hash_Full_Info_8) {Hash_Full_Info check false false}
+set engineList(option_Pawn_Weight_8) {Pawn_Weight spin 100 100 1 200}
+set engineList(option_Max_Threads_8) {Max_Threads spin 1 64 1 64}
+set engineList(option_TripleBase_Hash_8) {TripleBase_Hash spin 1 1 1 4096}
+set engineList(option_Null_Reduction_8) {Null_Reduction spin 8 8 1 16}
+set engineList(option_Value_Cut_8) {Value_Cut spin 15000 15000 1000 30000}
+set engineList(option_TBHit_Info_8) {TBHit_Info check false false}
+set engineList(option_Mobility_Weight_8) {Mobility_Weight spin 100 100 1 200}
+set engineList(option_QS_Alpha_Threshold_8) {QS_Alpha_Threshold spin 200 200 1 400}
+set engineList(option_Draw_Weight_8) {Draw_Weight spin 100 100 1 200}
+set engineList(option_PST_Weight_8) {PST_Weight spin 100 100 1 200}
+set engineList(option_Verbose_RobboBases_8) {Verbose_RobboBases check false false}
+set engineList(option_TotalBase_Directory_8) {TotalBase_Directory string NULL NULL}
+set engineList(option_AN_Split_Depth_8) {AN_Split_Depth spin 12 12 12 24}
+set engineList(option_TotalBase_Cache_8) {TotalBase_Cache spin 1 1 1 1024}
+set engineList(option_Battle_Factor_8) {Battle_Factor spin 100 100 1 200}
+set engineList(option_Lazy_Eval_Max_8) {Lazy_Eval_Max spin 300 300 1 600}
+set engineList(option_Current_Move_Info_8) {Current_Move_Info check false false}
+set engineList(option_NPS_Info_8) {NPS_Info check false false}
+set engineList(option_History_Threshold_8) {History_Threshold spin 50 50 1 100}
+set engineList(option_Low_Depth_PVs_8) {Low_Depth_PVs check false false}
+set engineList(option_Verify_Null_8) {Verify_Null check true true}
+set engineList(option_Height_Multiplier_8) {Height_Multiplier spin 64 64 1 128}
+set engineList(option_Search_Depth_Reduction_8) {Search_Depth_Reduction spin 6 6 1 12}
+set engineList(option_Min_Trans_Move_Depth_8) {Min_Trans_Move_Depth spin 16 16 1 32}
+set engineList(option_Prune_Pawn_8) {Prune_Pawn spin 160 160 1 320}
+set engineList(option_Depth_Red_Min_8) {Depth_Red_Min spin 12 12 1 24}
+set engineList(option_Min_Depth_Multiplier_8) {Min_Depth_Multiplier spin 48 48 1 96}
+set engineList(option_Easy_Factor_Ponder_8) {Easy_Factor_Ponder spin 33 33 1 100}
+set engineList(option_Dynamic_TripleBase_Cache_8) {Dynamic_TripleBase_Cache spin 1 1 1 65536}
+set engineList(option_Clear_Hash_8) {Clear_Hash button}
+set engineList(option_King_Safety_Weight_8) {King_Safety_Weight spin 100 100 1 200}
+set engineList(option_TripleBase_Directory_8) {TripleBase_Directory string NULL NULL}
+set engineList(option_Low_Depth_Margin_8) {Low_Depth_Margin spin 1125 1125 1 2000}
+set engineList(option_Bishop_Pair_Value_8) {Bishop_Pair_Value spin 50 50 1 200}
+set engineList(option_PV_Split_Depth_8) {PV_Split_Depth spin 12 12 12 24}
+set engineList(option_Search_Depth_Min_8) {Search_Depth_Min spin 20 20 1 40}
+set engineList(option_Absolute_Factor_8) {Absolute_Factor spin 25 25 1 100}
+set engineList(option_Split_at_CN_8) {Split_at_CN check true true}
+set engineList(option_Material_Weight_8) {Material_Weight spin 100 100 1 200}
+set engineList(option_Verify_Reduction_8) {Verify_Reduction spin 2 2 1 16}
+set engineList(option_Queen_Value_8) {Queen_Value spin 1000 1000 1 2000}
+set engineList(option_Use_RobboBases_8) {Use_RobboBases check false false}
+set engineList(option_Normal_Factor_8) {Normal_Factor spin 75 75 1 200}
+set engineList(option_CN_Split_Depth_8) {CN_Split_Depth spin 14 14 12 24}
+set engineList(option_Pawn_Hash_8) {Pawn_Hash spin 32 32 1 1024}
+set engineList(option_Bishop_Value_8) {Bishop_Value spin 330 330 1 640}
+set engineList(option_Extend_In_Check_8) {Extend_In_Check check false false}
+set engineList(option_Write_Log_8) {Write_Log check false false}
+set engineList(option_Get_FEN_String_8) {Get_FEN_String button}
+set engineList(option_Pawn_Value_8) {Pawn_Value spin 100 100 1 200}
+set engineList(option_Top_Min_Depth_8) {Top_Min_Depth spin 14 14 1 28}
+set engineList(option_Undo_Count_Threshold_8) {Undo_Count_Threshold spin 15 15 1 20}
+set engineList(option_Knight_Value_8) {Knight_Value spin 320 320 1 640}
+set engineList(option_CPU_Load_Info_8) {CPU_Load_Info check false false}
+set engineList(option_Delta_Cutoff_8) {Delta_Cutoff spin 25000 25000 20000 30000}
+set engineList(option_Positional_Weight_8) {Positional_Weight spin 100 100 1 200}
+set engineList(option_Verbose_UCI_8) {Verbose_UCI check false false}
+set engineList(option_Rook_Value_8) {Rook_Value spin 510 510 1 1000}
+set engineList(option_Prune_Check_8) {Prune_Check spin 10 10 1 30}
+# Engine 9
+set engineList(alias_9) {IvanHoe 9.46b x64}
+set engineList(command_9) {/home/peter/chess/engines/ivanhoe/Linux/Mode_Game_Play/x86-64/IvanHoe999946f}
+set engineList(protocol_9) {uci}
+set engineList(param_9) {}
+set engineList(dir_9) {/home/peter/chess/engines/ivanhoe/Linux/Mode_Game_Play/x86-64/}
+set engineList(wine_9) {false}
+set engineList(Threads_9) {Threads spin 1 8 1 8}
+set engineList(option_PVHash_9) {PVHash spin 2 2 1 1024}
+set engineList(option_AlwaysAnalyze_9) {AlwaysAnalyze check false false}
+set engineList(option_UnloadAllRobboTripleBases_9) {UnloadAllRobboTripleBases button}
+set engineList(option_WhiteKnight_9) {WhiteKnight spin 300 300 150 500}
+set engineList(option_TripleDefiniteProbeHeight_9) {TripleDefiniteProbeHeight spin 5 5 1 255}
+set engineList(option_BlackPawn_9) {BlackPawn spin 100 100 50 200}
+set engineList(option_RobboInformatory_9) {RobboInformatory button}
+set engineList(option_TimeEasyFactor_9) {TimeEasyFactor spin 15 15 10 100}
+set engineList(option_TimeEasyFactorPonder_9) {TimeEasyFactorPonder spin 33 33 10 100}
+set engineList(option_BlackKnight_9) {BlackKnight spin 300 300 150 500}
+set engineList(option_TimeImitateOpponent_9) {TimeImitateOpponent check false false}
+set engineList(option_SplitDepthALL_9) {SplitDepthALL spin 14 14 12 20}
+set engineList(option_DeregisterAllRobboTotalBases_9) {DeregisterAllRobboTotalBases button}
+set engineList(option_TripleHashSize_9) {TripleHashSize spin 1 1 1 4096}
+set engineList(option_TimeMoreWhenLosing_9) {TimeMoreWhenLosing check false false}
+set engineList(option_RobboTotalBaseCacheSize_9) {RobboTotalBaseCacheSize spin 1 1 1 1024}
+set engineList(option_BlackBishopPair_9) {BlackBishopPair spin 45 45 1 150}
+set engineList(option_RandomCount_9) {RandomCount spin 0 0 0 8}
+set engineList(option_LoadOnWeakProbe_9) {LoadOnWeakProbe combo AllWays AllWays {AllWays UnlessPondered Refrain}}
+set engineList(option_WhiteQueen_9) {WhiteQueen spin 950 950 500 1500}
+set engineList(option_WhitePawn_9) {WhitePawn spin 100 100 50 200}
+set engineList(option_RobboTripleBulkDetachThisDirectory_9) {RobboTripleBulkDetachThisDirectory string NULL NULL}
+set engineList(option_KingSafetyWeighting_9) {KingSafetyWeighting spin 1024 1024 512 2048}
+set engineList(option_AllowInstantMoveFromHash_9) {AllowInstantMoveFromHash check true true}
+set engineList(option_TimeAbsolutePercent_9) {TimeAbsolutePercent spin 25 25 10 100}
+set engineList(option_TryLargePages_9) {TryLargePages check false false}
+set engineList(option_EvalHash_9) {EvalHash spin 256 256 1 1048576}
+set engineList(option_TimeMoreWhenWinning_9) {TimeMoreWhenWinning check false false}
+set engineList(option_RandomBits_9) {RandomBits spin 1 1 1 3}
+set engineList(option_TimeBookExitMoves_9) {TimeBookExitMoves spin 0 0 0 20}
+set engineList(option_AlternativeTimeUsage_9) {AlternativeTimeUsage check false false}
+set engineList(option_TimeOrdinaryFactor_9) {TimeOrdinaryFactor spin 75 75 10 500}
+regkosmre
