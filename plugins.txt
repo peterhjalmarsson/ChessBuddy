@@ -1,0 +1,41 @@
+A plugin needs to be placed in ./plugins/ folder. (And be named
+<name>.tcl)
+
+It needs two procs:
+
+proc init<name> {} {
+	#runs at startup
+}
+
+proc menu<name> {} {
+	#add command to Plugins menu
+	#example
+	.mainmenu.menuPlugins add command -label "Plugin foo"\
+			-command {::foo::bar args}
+}
+
+there are four global variables that can be used
+
+repaint (called when prog needs repaint)
+update (called when a move has been made)
+savefile (called at closing time, to save settings)
+create (used if plugin creates a window on startup)
+
+they are called with 
+	addCommand <variable> <command>
+	removeCommand <variable> <command>
+	
+	example
+	addCommand repaint "::foo::bar args"
+	removeCommand repaint "::foo::bar args"
+	
+(don't forget the namespace in the commands)
+make sure to remove the command again if window is closed
+also make sure not to cause an error if repaint or update are called
+after destruction, there can be delayed calls
+use e.g.
+if {[winfo exists .foo] == 0} {return}
+at beginning of proc
+
+
+everything else should be in its own namespace
